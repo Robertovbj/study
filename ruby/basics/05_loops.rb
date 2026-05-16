@@ -31,6 +31,21 @@ end
   puts i
 end
 
+# Times loop
+5.times do |i|
+  puts i
+end
+
+# Upto loop
+0.upto(4) do |i|
+  puts i
+end
+
+# Downto loop
+4.downto(0) do |i|
+  puts i
+end
+
 # Loop control statements:
 # break - exits the loop immediately.
 # next - skips the rest of the current iteration and moves to the next iteration.
